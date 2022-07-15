@@ -23,7 +23,6 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
       {/* container -> posters */}
       <div className="row_posters">
         {movies.map((movie, i) => {
-          console.log('movie....', movie)
           return (
             <img
               key={movie.id}
